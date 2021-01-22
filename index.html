@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Blanket</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+            <div class="page-numbers">
+                <button id="page-1">1</button>
+                <button id="page-2">2</button>
+            </div>
+
+            <div class="basic-info">
+                <h3>Give us some basic information</h3>
+                <p>To start off, Please enter main contact name,
+                    email, adress and password
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right">
+            
+
+            <form action="/page-2.html" method="submit">
+
+                <h3>Step 1</h3><br><br>
+
+                <div class="inputs-1">
+                    <div id="first">
+                        <label for="main-contact">Main contact name</label><br>
+                        <input type="text" id="main-contact" name="main-contact" placeholder="eg. Johnsmith" required>
+                    </div>
+    
+                    <div id="second">
+                        <label for="main-email">Email Adress</label><br>
+                        <input type="text" id="main-email" name="main-email" placeholder="eg. Johnsmith@mybussiness.com" required>
+                    </div>
+                </div>
+
+                <div class="inputs-2">
+                    <div id="third">
+                        <label for="main-password">Password</label><br>
+                        <input type="password" id="main-password" name="main-password" placeholder="Password must be at least 8 characters" required>
+                    </div>
+    
+                    <div id="fourth">
+                        <label for="main-password-2"></label><br>
+                        <input type="password" id="main-password-2" name="main-password-2" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit-btn">Continue</button>
+
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

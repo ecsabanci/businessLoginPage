@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Blanket</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+            <div class="page-numbers">
+                <button id="page-1">1</button>
+                <button id="page-2">2</button>
+            </div>
+
+            <div class="basic-info">
+                <h3>Complete your registration</h3>
+                <p>
+                    Please enter business details.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right">
+            
+
+            <form action="" method="post">
+
+                <h3>Step 2</h3><br><br>
+
+                <div id="business-name">
+                    <label for="business-name">Business Name (English)</label><br>
+                    <input type="text" id="business-name" name="business-name" placeholder="e.g. mybussiness" required>
+                </div><br>
+
+                <div class="inputs-3">
+                    <div id="first">
+                        <label for="business-website">Business Website</label><br>
+                        <input type="text" id="business-website" name="business-website" placeholder="e.g. mybussiness.com" required>
+                    </div>
+    
+                    <div id="second">
+                        <label for="phone-number">Main Phone Number</label><br>
+                        <input type="text" id="phone-number" name="phone-number" placeholder="e.g. 658 0000 0000" required>
+                    </div>
+                </div>
+
+                <div class="inputs-4">
+                    <div id="third">
+                        <label for="business-type">Please Select Your Business Type</label><br>
+                        <select name="business-type" id="business-type">
+                            <optgroup>
+                              <option value="select">Please select</option>
+                              <option value="sole">sole proprietorship</option>
+                              <option value="general">general partnership</option>
+                            </optgroup>
+                        </select>
+                    </div>
+    
+                    <div id="fourth">
+                        <label for="reg-number">Business Registration Number</label><br>
+                        <input type="text" id="reg-number" name="reg-number" placeholder="e.g. 658 0000 0000" required>
+                    </div>
+                </div>
+
+                <div id="business-address">
+                    <label for="business-address">Business Address (English)</label><br>
+                    <input type="text" id="business-address" name="business-address" placeholder="e.g. mybussiness.com" required>
+                </div><br>
+
+
+                <div class="last-buttons">
+                    <button id="back-btn" > <i class="fa fa-angle-left" style="font-weight: bold;margin-right: 3px;"></i> Back</button>
+                    <button type="submit" id="confirm-btn" disabled>Confirm</button>
+                </div>
+
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+    
+
+    <script src="./script2.js"></script>
+</body>
+</html>
