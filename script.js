@@ -6,6 +6,6 @@ const submitBtn = document.querySelector("#submit-btn");
 
 submitBtn.addEventListener("submit", (e) => {
 
-    window.location.href = "page-2.html";
+    window.location.href = "./page-2.html";
         
 });
