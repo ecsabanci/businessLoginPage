@@ -47,7 +47,7 @@ h3 {
 
 .left #page-1,#page-2 {
     color: #ffffff;
-    padding: 13px;
+    padding: 13px 18px;
     font-size: 20px;
     border: 1px #ffffff;
     border-radius: 100%;
@@ -175,9 +175,8 @@ input::placeholder {
     }
 
     .left #page-1,#page-2 {
-        padding: 3px;
-        margin-top: 70vw;
-        
+        padding: 2px 3.2px;
+        margin-top: 50vw;
     }
 
     .right .inputs-3 {
