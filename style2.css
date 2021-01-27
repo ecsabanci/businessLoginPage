@@ -25,11 +25,10 @@ h3 {
 
 .left {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40vw;
-    height: 100vh;
 }
 
 .left .basic-info {
@@ -38,14 +37,14 @@ h3 {
 
 .left h3,p {
     text-align: center;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
 }
 
 .left p {
     opacity: 0.4;
 }
 
-.left #page-1,#page-2 {
+.left #page-1,#page-2,#page-3 {
     color: #ffffff;
     padding: 13px 18px;
     font-size: 20px;
@@ -53,17 +52,23 @@ h3 {
     border-radius: 100%;
     margin-bottom: 7vh;
 }
-.left #page-1,#page-2:focus {
+
+#page-3 {
+    color: black;
+    opacity: 0.5;
+}
+
+.left #page-1,#page-2,#page-3:focus {
     outline: none;
 }
 
 #page-1,#page-2 {
     background: #695A94;
-    margin-right: 10px;
 }
 
 
 .right {
+    flex: 2;
     height: 85vh;
     border-left: 2px solid rgba(199, 193, 193, 0.5);
 }
@@ -107,7 +112,7 @@ h3 {
 
 input,select {
     width: 23vw;
-    padding: 1.8%;
+    padding: 2.7%;
     margin-top: 1vw;
     border-radius: 5px;
     border: 2px solid rgba(216, 203, 203, 0.5);
@@ -153,6 +158,7 @@ input::placeholder {
     opacity: 0.5;
     cursor: pointer;
 }
+
 #back-btn:focus {
     outline: none;
 }
